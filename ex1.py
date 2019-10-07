@@ -7,8 +7,10 @@ Created on Mon Oct  7 11:06:15 2019
 
 # class declaration
 class Jungle:
-    pass
+    def welcomeMessage(self):
+        print("Welcome to the Jungle")
 
 # create object of class Jungle
 j = Jungle()
-print(j)
+j.welcomeMessage()
+#print(j)

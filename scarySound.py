@@ -5,13 +5,16 @@ Created on Mon Oct  7 11:21:50 2019
 @author: austin.schrader
 """
 
-class Animal:
+from jungleBook import Jungle
+
+class Animal(Jungle):
     def scarySound(self):
         print("Animals are running away due to the scary sounds")
 
-class Bird:
+class Bird(Jungle):
     def scarySound(self):
         print("Birds are flying away due to the scary sounds")
         
-class Insect:
-    pass
+class Insect(Jungle):
+    def scarySound(self):
+        print("Insects do not care about scary sound.")

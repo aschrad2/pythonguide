@@ -10,9 +10,11 @@ from scarySound import Animal, Bird
 def main():
     a = Animal()
     b = Bird()
+    i = Insect()
     
     a.scarySound()
     b.scarySound()
+    i.scarySound()
     
 if __name__=='__main__':
     main()

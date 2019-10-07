@@ -13,10 +13,15 @@ class Jungle:
         
     def welcomeMessage(self):
         print("Hello %s, Welcome to the Jungle" % self.visitorName)
-        
-# create object of class Jungle
-j = Jungle("Meher")
-j.welcomeMessage()
 
-k = Jungle()
-k.welcomeMessage()
+def main():        
+    # create object of class Jungle
+    j = Jungle("Meher")
+    j.welcomeMessage()
+    
+    k = Jungle()
+    k.welcomeMessage()
+
+# standard boilerplate to set 'main' as starting function
+if __name__=='__main__':
+    main()
